@@ -1,20 +1,19 @@
-//
-//  LeetCodeTrackerApp.swift
-//  LeetCodeTracker
-//
-//  Created by Shahrzad Nazifi on 1/6/26.
-//
-
 import SwiftUI
 
+// Entry point of the app
+// This is where the SwiftUI app lifecycle begins
 @main
 struct LeetCodeTrackerApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
+
+        // Main window scene for the app
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+
+          // Root view of the application
+          // All navigation and state flow starts from here
+          ProblemListView()
         }
     }
 }
+
