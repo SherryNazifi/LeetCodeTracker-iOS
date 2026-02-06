@@ -14,11 +14,11 @@ The app focuses on identifying weak areas and prioritizing review based on diffi
 ## Screenshots
 
 <p align="center">
-  <img src="main.png" width="250" />
-  <img src="add.png" width="250" />
-  <img src="edit.png" width="250" />
-  <img src="filter.png" width="250" />
-  <img src="stats.png" width="250" />
+  <img src="images/main.png" width="250" />
+  <img src="images/add.png" width="250" />
+  <img src="images/edit.png" width="250" />
+  <img src="images/filter.png" width="250" />
+  <img src="images/stats.png" width="250" />
   
 </p>
 
